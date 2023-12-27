@@ -1,0 +1,31 @@
+name: km_test
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  http: ^1.1.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/bg.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins.ttf
